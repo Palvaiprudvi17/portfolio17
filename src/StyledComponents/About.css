@@ -1,0 +1,67 @@
+.mask,
+.smallcontainer {
+  width: 100%;
+  height: 100%;
+
+  color: #afa18f;
+  font-size: 66px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 66px;
+
+  cursor: default;
+  padding: 0 50px;
+
+  p {
+    width: 1000px;
+    padding: 40px;
+  }
+  span {
+    color: #ec4e39;
+  }
+}
+
+.mask {
+  mask-image: url("../../public/mask.svg");
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  background: #ec4e39;
+  position: absolute;
+  color: black;
+}
+
+.container {
+  padding: 0 10%;
+  width: 100%;
+}
+
+.main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+@media screen and (max-width:786px) {
+  .mask,
+.smallcontainer {
+  width: 100%;
+  height: 100%;
+
+  color: #afa18f;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height:50px;
+
+  cursor: default;
+  padding: 0 50px;
+
+  p {
+    width: 1000px;
+    padding: 40px;
+  }
+  span {
+    color: #ec4e39;
+  }
+}
+  
+}

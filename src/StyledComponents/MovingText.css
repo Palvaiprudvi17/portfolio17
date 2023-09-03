@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    color:black;
+  }
+  
+  
+
+
+
+
+  
+  body {
+    background-image: url("https://img.freepik.com/free-photo/steel-texture_1194-6527.jpg");
+    z-index: 10;
+    width: 100%;
+    
+    min-height: 100vh;
+  overflow-x: hidden;
+    color: #fcf3ea;
+    overscroll-behavior: none;
+    
+    line-height: 1;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  } 
+
+
+  @media screen and (max-width:786px) {
+    .body{
+      overflow: hidden;
+    }
+  }
+
+
+  .name{
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 1.2px;
+  }

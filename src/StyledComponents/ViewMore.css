@@ -1,0 +1,45 @@
+
+.content{
+    text-align: center;
+    font-size: 60px;
+}
+
+ .MainContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+ }
+
+
+
+ .imageslider1{
+    margin-top: 200px;
+ }
+
+ @media screen and (max-width:786px) {
+
+    .content{
+        font-size: 30px;
+    }
+    .MainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageslider{
+        margin-top: 50px;
+    }
+    
+ }
+
+ .link{
+    cursor: pointer;
+ }
+ .github{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+ .number{
+    position: absolute;
+ }
